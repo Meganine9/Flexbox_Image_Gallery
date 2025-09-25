@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    align-content: center;
+}
+
+.container{
+    width: 900px;
+    /* height: 100vh; */
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   align-content: center;
+   gap:25px;
+   border-radius: 15px;
+   background-color: white;
+   margin: auto;
+}
+h2{
+    margin:20px;
+   width: 100%;
+   text-align: center;
+}
+img{
+    width:250px;
+    height: 250px;
+    border-radius: 15px;
+    gap:25px;
+}
+
+p{
+    background: linear-gradient(pink,lightcoral);
+    border-radius: 15px;
+}
+
+img:hover{
+    box-shadow: 0 0 8px darkgray;
+}
